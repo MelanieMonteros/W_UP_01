@@ -32,13 +32,15 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 # Results
+The skilled player had the overall best score, which is shown on the data that the skilled players had the mean 49.72727 result compared the the line plays which resulted in the mean of 17.12500.
 
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
 
 ## Descriptive Results
+the graph Boxplot visually shows how many push-ups lined and skilled players did. Letting one  make the conclusion that skilled players do more push-ups than line players because it shows that skilled players did (number of pushups) while line players only did (number of pushups) 
 
 ### Graphical Descriptive Results
-
+ for the boxplot we use the code of ( boxplot(pushups~position,data=mydata)) for the numerical we use the code of (favstats(pushups~position,data=mydata) and for the results we used (t.test(pushups~position,data=mydata)). for the patterns of the graphs we notice that the skilled plays had an overall better score then the line players. 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 Plot boxplots
